@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Twimba</h1>
+    </header>
+
+    <main>
+      <div class="tweet-input-area">
+        <img src="images/scrimbalogo.png" class="profile-pic" alt="" />
+        <textarea
+          name="tweet-input"
+          id="tweet-input"
+          placeholder="What's happening?"
+        ></textarea>
+      </div>
+      <button id="tweet-btn">Tweet</button>
+      <div class="feed" id="feed">
+        <!-- Tweets here!! -->
+      </div>
+    </main>
+
+    <script src="script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
+  </body>
+</html>
+
+<!--
+Environment	| How to use UUID
+Browser	| <script src="CDN link"></script> then use uuidv4()
+Node.js / Module  |	import { v4 as uuidv4 } from 'uuid'
+-->
