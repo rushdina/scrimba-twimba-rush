@@ -1,7 +1,7 @@
 # 🐦 Twimba (Twitter Clone)
 
 A solo project from the [Scrimba Frontend Developer Career Path](https://scrimba.com/frontend-path-c0j).  
-Twimba (Twitter + Scrimba) is a mini Twitter clone built to practice **DOM manipulation**, **event handling**, **data-driven rendering**, and **component-style UI updates**. Tweets, likes, retweets, and replies are dynamically generated from a JavaScript array, making the feed fully scalable and interactive. Users can post tweets, reply to tweets, like, retweet, and delete their own content.
+Twimba (Twitter + Scrimba) is a mini Twitter clone. Tweets, likes, retweets, and replies are dynamically generated from a JavaScript array, making the feed fully scalable and interactive. Users can post tweets, reply to tweets, like, retweet, and delete their own content.
 
 ## 🛠️ Technologies
 - HTML5  
