@@ -8,7 +8,7 @@ const currentUser = {
 };
 
 // ====== Utility Functions ======
-const getTweetById = (id) => tweetsData.find((tweet) => tweet.uuid === id);
+const getTweetById = (id) => tweetsData.find((tweet) => tweet.uuid === id); // .find returns first ELEMENT that satisfies the condition, wheareas .filter returns new ARRAY containing all elements that satisifies the condition
 
 const toggleLike = (tweet) => {
   tweet.isLiked = !tweet.isLiked;
@@ -210,3 +210,4 @@ document.addEventListener("click", (e) => {
 
 // ====== Initial Render ======
 renderFeed();
+
